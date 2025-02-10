@@ -1,6 +1,6 @@
 async function createModel() {
-    const checkpointURL = "http://localhost/teachmachine2/modelo/model.json"; // Ruta local
-    const metadataURL = "http://localhost/teachmachine2/modelo/metadata.json"; // Ruta local
+    const checkpointURL = "http://localhost/teachablemachine_voice_A_E//modelo/model.json"; // Ruta local
+    const metadataURL = "http://localhost/teachablemachine_voice_A_E//modelo/metadata.json"; // Ruta local
 
     const recognizer = speechCommands.create(
         "BROWSER_FFT",
